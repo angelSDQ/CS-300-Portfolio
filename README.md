@@ -1,6 +1,6 @@
 # CS-300 Portfolio
 
-This repo has two pieces of work from my Data Structures and Algorithms course. Both are based on the ABCU advising program project, where the goal was to build a tool to help advisors look up courses for the Computer Science program.
+This repo has two pieces of work from my Data Structures and Algorithms course. Both are based on the ABCU advising program project, where the goal was to build a tool to help find the courses for the Computer Science program.
 
 ## Files
 - **Project One** my pseudocode and runtime analysis comparing a vector, a hash table, and a binary search tree.
