@@ -14,11 +14,11 @@ The task asked for a program that could read in the course data, print all the c
 
 **How did you approach the problem? Consider why data structures are important to understand.**
 
-I looked at what the program needed to do and then compared three structures for those jobs. A vector loads fast but you have to sort it every time you print. A hash table finds a course fast but doesn't stay in order. A binary search tree keeps everything sorted, so printing the list is easy and looking up a course is still quick. That comparison is the whole reason data structures matter — picking the right one makes the program faster and cleaner. I went with the binary search tree because it handled both things the task was asking for, and that's what I built in Project Two.
+I looked at what the program needed to do and then compared three structures for those jobs. A vector loads fast but you have to sort it every time you print. A hash table finds a course fast but doesn't stay in order. A binary search tree keeps everything sorted, so printing the list is easy and looking up a course is still quick. That comparison is why data structures matter. Picking the right one makes the program faster and cleaner. I went with the binary search tree because it handled both things the task was asking for, and that's what I built in Project Two.
 
 **How did you overcome any roadblocks you encountered while going through the activities or project?**
 
-The hardest part wasn't the algorithms, it was reading the file. Parsing each line and checking that every prerequisite was an actual course took some trial and error. I fixed the prerequisite check by reading the file in two passes — one to collect all the course numbers, and one to check the prerequisites against them. When I got stuck I broke the code into smaller functions and tested them one at a time.
+The hardest part wasn't the algorithms, it was reading the file. Parsing each line and checking that every prerequisite was an actual course took some trial and error. I fixed the prerequisite check by reading the file in two passes, one to collect all the course numbers and one to check the prerequisites against them. When I got stuck I broke the code into smaller functions and tested them one at a time.
 
 **How has your work on this project expanded your approach to designing software and developing programs?**
 
